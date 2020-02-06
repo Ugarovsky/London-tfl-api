@@ -1,0 +1,425 @@
+
+@font-face{
+  font-family: 'RalewayIt';
+  src: url('./Raleway-LightItalic.ttf');
+}
+@font-face{
+  font-family: 'Raleway';
+  src: url('./Raleway-ExtraLight.ttf');
+}
+*{
+  box-sizing: border-box;
+  font-family: Raleway;
+}
+
+.news-name{
+  font-size: 30px;
+  
+  font-family: RalewayIt;
+}
+
+.hightlights{
+  line-height: 25px;
+  font-size: 18px;
+  
+}
+
+.read-more{
+  color:white;
+  margin: 0;
+  border-radius: 5px;
+  min-height: 20;
+  min-width: 200px;
+  background: rgb(37, 37, 37);
+}
+
+.score{
+  font-size: 18px;
+  font-family: RalewayIt;
+}
+
+#search-news{
+  padding: 5%;
+}
+#search-site button:hover{
+  color:rgb(68, 231, 246);
+}
+input::selection{
+  background: black;
+}
+.some-record {
+  padding: 40px;
+  margin-bottom: 100px;
+}
+
+.title-div{
+  width: 100%;
+  min-height: 500px;
+  background: url(../src/images/subway.jpg);
+  background-size: 100%;
+}
+
+.some-record p{
+  font-size: 20px;
+}
+#qqq{
+  margin-bottom: 50px;
+}
+.some-record h2{
+  margin-bottom: 45px;
+  font-size: 35px;
+}
+.search-line{
+  margin: 22vh 0;
+}
+.news{
+  margin: 25px 0;
+  box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
+  padding: 2%;
+  border:1px solid rgba(122, 122, 122, 0.24);
+  background:linear-gradient(to right, #ffffff 0%, #ffffff 60%,rgba(53, 130, 153, 0.938) 100%);
+}
+
+
+
+
+body{
+  background: rgb(255, 255, 255);
+}
+
+#search-site{
+  text-align: center;
+}
+
+.app{
+  width: 100%;
+}
+header a:hover {
+  color:rgb(18, 218, 236);
+  cursor: pointer;
+}
+#search-form{
+  display: inline;
+  text-align: center;
+  margin: 20px;
+}
+
+.please-select{
+  margin: 20px 40px;
+} 
+
+#search-form input, #site-search-input{
+  font-size: 20px;
+  width: 50%;
+  height: 50px;
+  border-radius: 15px;
+  border:1px solid rgb(36, 36, 36);
+  margin: 20px auto;
+  display: block;
+}
+
+.line-status-template{
+  margin-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.line-status-container{
+  padding: 3%;
+}
+
+.line-status-block:hover{
+  color:rgb(18, 218, 236);
+}
+.line-status-block{
+  color:white;
+  background: rgb(46, 46, 46);
+  flex:1;
+  min-width: 200px;
+  padding: 20px;
+ margin: 20px 10px;
+ text-align: center;
+ border:1px solid black;
+}
+
+
+#search-form input{
+  font-size: 20px;
+}
+
+.line-status-block h1{
+  font-size: 28px;
+  margin-bottom: 100px;
+}
+#search-site {
+  min-height:20vh;
+  margin: 15vh 0 25vh 0;
+}
+#search-site h2{
+  font-size: 40px;
+}
+#search-form button,#search-site button,.back-button {
+  background: rgb(37, 37, 37);
+  color:white;
+  width: 15%;
+  margin-left: 42.5%;
+}
+
+#home-container{
+  width: 80%;
+  min-height: 500px;
+  display: flex;
+  margin: 2% 10%;
+  margin-bottom: 100px;
+}
+
+#my-photo{
+  flex:1;
+  min-height: 700px;
+  background: black;
+}
+
+#my-photo, #about-work,#about-me{
+  margin: 5px;
+}
+
+
+.about-me{
+  padding: 1%;
+  color:white;
+  background: rgba(184, 28, 28, 0.863);
+  flex:2;
+  margin: 5px;
+}
+.about-api{
+  padding: 1%;
+}
+
+.about-me p, .about-api p{
+  line-height: 24px;
+}
+
+
+#about-container{
+  display: flex;
+}
+
+.about-api{
+  background: rgba(0, 0, 0, 0.877);
+  color:white;
+  flex:2;
+  margin: 5px;
+}
+
+.about-task h2{
+  text-align: center;
+}
+
+.about-task {
+  margin-bottom: 100px;
+}
+
+.about-me,.about-api{
+  min-height: 300px;
+}
+
+#about-container{
+  width: 90%;
+  margin: 0 5%;
+}
+
+
+#about {
+  flex: 2;
+}
+
+#about-me{
+  background: url(../src/images/subway.jpg);
+  background-size: 100%;
+  min-height: 50%;
+}
+
+#about-work {
+  background: red;
+  min-height: 50%;
+}
+
+.back-button{
+  margin-top: 50px;
+}
+.back-button:hover{
+  color:rgb(133, 215, 226);
+}
+#search-site button{
+  margin:  0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#search-items{
+  min-width: 100%;
+  float: left;
+  padding: 3%;
+  
+}
+
+#search-items input, button{
+  margin: 0 20px;
+  width: 15%;
+  height: 30px;
+  border:1px solid black;
+}
+
+#search-items button { 
+  background: rgb(133, 215, 226);
+  border:1px solid rgb(49, 49, 49);
+}
+
+header, footer{
+  min-height: 65px;
+  width: 100%;
+  text-align: center;
+  background: black;
+  color:white;
+  padding: 15px;
+}
+
+header li, footer li{
+  font-size: 25px;
+  margin: auto 50px;
+  list-style-type: none;
+  display: inline;
+}
+
+header a{
+  text-decoration: none;
+  color:white;
+  font-size:27px;
+}
+
+form p{
+  margin: 20px;
+}
+#time_table{
+  width: 95%;
+  margin: 50px auto;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+input {
+  border:0;
+  height: 30px;
+  text-align: center;
+}
+
+li button{
+  width: 150px;
+  height: 32px;
+  background: rgb(47, 185, 190);
+  border:0;
+  color: white;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+#time_table td{
+  height: 50px; 
+}
+
+#time_table tr:nth-child(odd) {
+  background: #f7f7f7;
+}
+#time_table thead tr:first-child{
+  background: black;
+  color:white;
+}
+
+footer
+{
+position: fixed;
+bottom: 0;
+left: 0;
+height: 20px;
+}
+
+footer ul{
+ margin: 0;
+}
+
+
+#blink1 {
+  width: 40%;
+  border-bottom:1px solid black;
+  padding: 1%;
+  -webkit-animation: blink1 3s linear infinite;
+  animation: blink1 3s linear infinite;
+}
+@-webkit-keyframes blink1 {
+  0% { color: rgb(0, 216, 216); }
+  50% { color: rgb(62, 228, 40,0); }
+  100% { color: rgb(0, 216, 216); }
+}
+
+
+@keyframes blink1 {
+  0% { color: rgb(0, 216, 216); }
+  50% { color: rgb(62, 228, 40, 0); }
+  100% { color: rgb(0, 216, 216); }
+}
+.title-div h2{
+  text-shadow: 1px 1px 2px black, 0 0 1em black;
+  width: 50%;
+  line-height: 75px;
+  margin: 0;
+  padding: 5%;
+  font-size: 48px;
+  color:white;
+}
+
+@media screen and (max-width: 900px){
+ header li{
+  margin: auto 50px;
+  list-style-type: none;
+  display: block;
+ }
+
+ .title-div h2{
+   line-height: 30px;
+   font-size: 22px;
+ }
+
+ .title-div p{
+  line-height: 25px;
+  font-size: 17px;
+ }
+
+ 
+ .title-div{
+   background: white;
+   margin: 10px 5%;
+   width: 90%;
+
+   min-height: 200px;
+ }
+ footer li{
+   font-size: 15px;
+ }
+ header{
+   min-height: 30px;
+ }
+}
